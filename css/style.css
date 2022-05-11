@@ -14,6 +14,11 @@ li {
     text-decoration: none;
 }
 
+li a {
+    text-decoration: none;
+
+}
+
 .foto {
     border-radius: 70px;
 }
@@ -93,7 +98,7 @@ section h1 {
     margin: 0 auto;
     /*como se fosse margin top e bottom 0, left e right auto */
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 
 }
 
@@ -110,7 +115,9 @@ section h1 {
 
 .item {
     margin-bottom: 30px;
+
 }
+
 
 #contato {
     background-color: #9c70ce;
