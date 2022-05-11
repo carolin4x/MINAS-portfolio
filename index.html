@@ -8,16 +8,21 @@
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
     <title>
         Portfólio: Carolina Brito Lopes
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <navbar>
-        <ul>
+    <nav class="menu">
+        <ul class="lista-menu">
             <li>
                 <a href="#formacao">Formação</a>
             </li>
@@ -28,16 +33,18 @@
                 <a href="#contato">Contato</a>
             </li>
         </ul>
-    </navbar>
+    </nav>
 
-    <main>
-        <figure>
-            <img src="./images/perfil-carolina.jpg" alt="Foto de perfil da Carolina Lopes" width="180px"
+    <main class="intro-content">
+        <figure class="foto">
+            <img src="./images/perfil-carolina.jpg" class="foto" alt="Foto de perfil da Carolina Lopes" width="180px"
                 borderRadius="50px" />
         </figure>
-        <h1>Carolina Lopes</h1>
-        <h2>Deselvolvedora Web FullStack</h2>
-        <p>Olá, sou Carolina Lopes, biomédica e atualmente Desenvolvedora Web Java FullStack. Estou em transição de
+
+        <h1 class="title">Carolina Lopes</h1>
+        <h2 class="subtitle">Deselvolvedora Web FullStack</h2>
+        <p class="intro">Olá, sou Carolina Lopes, biomédica e atualmente Desenvolvedora Web Java FullStack. Estou em
+            transição de
             carreira e acredito que embora esteja na procura do meu primeiro emprego na tecnologia, minhas experiências
             passadas agregam muito no trabalho em equipe, visão de futuro e busca por soluções no mundo dev.
             Finalizei recentemente o Bootcamp da Generation Brasil, onde aprendi e apliquei conhecimentos em um projeto
@@ -49,49 +56,57 @@
     </main>
 
     <section id="formacao">
-        <h1>Formação</h1>
-        <ul>
-            <li>
-                <h4>Curso de Desenvolvimento - Minas Programam</h4>
-                <h4><a href="http://minasprogramam.com/inscricoes-abertas-curso2021/" target="_blank">Link do curso</a>
-                </h4>
-                <p>Introdução à programação, lógica de programação e frontend, incluindo
-                    fundamentos de HTML5, CSS3 e Javascript.</p>
-            </li>
+        <div class="conteudo">
+            <h1>Formação</h1>
+            <ul>
+                <li class="item">
+                    <h4 class="descricao">Curso de Desenvolvimento - Minas Programam</h4>
+                    <h4><a href="http://minasprogramam.com/inscricoes-abertas-curso2021/" target="_blank">Link do
+                            curso</a>
+                    </h4>
+                    <p class="p-section">Introdução à programação, lógica de programação e frontend, incluindo
+                        fundamentos de HTML5, CSS3 e Javascript.</p>
+                </li>
 
-            <li>
-                <h4>Bootcamp Web Java FullStack - Generation Brasil</h4>
-                <h4><a href="https://brazil.generation.org" target="_blank">Link do curso</a></h4>
-                <p>Bootcamp voltado para formação em período integral de desenvolvimento web fullstack.</p>
-            </li>
+                <li class="item">
+                    <h4 class="descricao">Bootcamp Web Java FullStack - Generation Brasil</h4>
+                    <h4><a href="https://brazil.generation.org" target="_blank">Link do curso</a></h4>
+                    <p>Bootcamp voltado para formação em período integral de desenvolvimento web fullstack.</p>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </section>
 
+
     <section id="portfolio">
-        <h1>Portfólio</h1>
-        <ul>
-            <li>
-                <h4>Projeto Polaris</h4>
-                <p>Desenvolvimento Web</p>
-                <h4>
-                    <a href="https://polarisconecta.netlify.app" target="_blank">Bootcamp Generation Brasil - 2022</a>
-                </h4>
-                <p>Projeto desenvolvido durante bootcamp, baseado na ODS-4 da ONU Brasil. CRUD montado do zero até sua
-                    estilização e deploy em nuvem.</p>
-            </li>
+        <div class="conteudo">
+            <h1>Portfólio</h1>
+            <ul>
+                <li class="item">
+                    <h4 class="descricao">Projeto Polaris</h4>
+                    <p class="p-section">Desenvolvimento Web</p>
+                    <h4>
+                        <a href="https://polarisconecta.netlify.app" target="_blank">Bootcamp Generation Brasil -
+                            2022</a>
+                    </h4>
+                    <p>Projeto desenvolvido durante bootcamp, baseado na ODS-4 da ONU Brasil. CRUD montado do zero até
+                        sua
+                        estilização e deploy em nuvem.</p>
+                </li>
 
-            <li>
-                <h4>Portfólio</h4>
-                <p>Desenvolvimento Web</p>
-                <h4>
-                    <a href="" target="_blank">Curso Minas Programam - 2022</a>
-                </h4>
-                <p>Portfólio pessoal desenvolvidodurante o curso do Minas Programam
-                </p>
-            </li>
+                <li class="item">
+                    <h4 class="descricao">Portfólio</h4>
+                    <p class="p-section">Desenvolvimento Web</p>
+                    <h4>
+                        <a href="" target="_blank">Curso Minas Programam - 2022</a>
+                    </h4>
+                    <p>Portfólio pessoal desenvolvidodurante o curso do Minas Programam
+                    </p>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </section>
 
     <footer id="contato">
