@@ -1,4 +1,4 @@
-* {
+* { /* O * reseta asinformações de css padrao que ja vem num index */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ li a {
 }
 
 .menu {
-    background-color: #9c70ce;
+    background-color: #66865a;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -81,7 +81,7 @@ li a {
 
 section h1 {
     font-size: 24px;
-    color: #04a192;
+    color: #023108; /* #04a192 */
     margin-right: 50px;
 }
 
@@ -103,7 +103,7 @@ section h1 {
 }
 
 #portfolio {
-    background-color: #EDEAEA;
+    background-color: #e7ece7;
 }
 
 .descricao {
@@ -120,7 +120,7 @@ section h1 {
 
 
 #contato {
-    background-color: #8a5bc0;
+    background-color: #66865a; /* #8a5bc0; */
     height: 120px;
     padding-left: 50px;
     padding-top: 30px;
