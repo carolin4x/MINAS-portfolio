@@ -1,4 +1,5 @@
-* { /* O * reseta asinformações de css padrao que ja vem num index */
+* {
+    /* O * reseta asinformações de css padrao que ja vem num index */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -81,7 +82,8 @@ li a {
 
 section h1 {
     font-size: 24px;
-    color: #023108; /* #04a192 */
+    color: #023108;
+    /* #04a192 */
     margin-right: 50px;
 }
 
@@ -120,7 +122,8 @@ section h1 {
 
 
 #contato {
-    background-color: #66865a; /* #8a5bc0; */
+    background-color: #66865a;
+    /* #8a5bc0; */
     height: 120px;
     padding-left: 50px;
     padding-top: 30px;
@@ -137,7 +140,7 @@ section h1 {
     text-decoration: none;
 }
 
-.copy { 
+.copy {
     text-align: center;
     font-size: 15px;
     color: #000000;
